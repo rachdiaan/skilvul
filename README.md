@@ -21,15 +21,9 @@ This project develops an AI-powered web application to predict the next product 
     ```bash
     python src/data_preprocessing.py
     ```
-4. Train the model.
-    ```bash
-    python src/model_training.py
-    ```
-5. Run the Flask app.
-    ```bash
-    python src/app.py
-    ```
-6. Access the web app at `http://127.0.0.1:5000`.
+3. Run the Streamlit App
+   ```streamlit run appv2.py
+    This command will launch the app, and you can access it by visiting the provided URL in your web browser.
 
 ## Usage
 1. Enter a customer ID.
@@ -42,7 +36,7 @@ This project develops an AI-powered web application to predict the next product 
 - `product_details.csv`: Provides details about each product.
 
 ## Model
-- Neural Collaborative Filtering (NCF) model using TensorFlow.
+- SVD - Singular Value Decomposition
 
 ## Contact
 For any inquiries, please contact [rachdiaaan@gmail.com].

@@ -25,7 +25,7 @@ def load_svd_model(url):
         return None
 
 # Load the SVD model from the file
-svd_model_url = 'svd_model.joblib'
+svd_model_url = 'https://github.com/rachdiaan/skilvul/raw/main/svd_model.joblib'
 loaded_svd_model = load_svd_model(svd_model_url)
 
 # Check if the model was loaded successfully

@@ -19,7 +19,7 @@ This project develops an AI-powered web application to predict the next product 
     ```
 3. Run the data preprocessing script.
     ```bash
-    python src/data_preprocessing.py
+    python src/data_preprocessing.ipynb
     ```
 3. Run the Streamlit App
    ```streamlit run appv2.py

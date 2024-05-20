@@ -37,6 +37,7 @@ This project develops an AI-powered web application to predict the next product 
 
 ## Model
 - SVD - Singular Value Decomposition
+- KNN Basic models based on their evaluation metrics
 
 ## Contact
 For any inquiries, please contact [rachdiaaan@gmail.com].
